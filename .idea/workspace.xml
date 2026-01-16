@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4f1da09-59c8-40fd-8db9-b7332f5c22b9" name="Changes" comment="Added Resume info">
+    <list default="true" id="d4f1da09-59c8-40fd-8db9-b7332f5c22b9" name="Changes" comment="Added Image and edited css">
+      <change beforePath="$PROJECT_DIR$/public/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
     </list>
@@ -59,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768567665483</updated>
-      <workItem from="1768567666933" duration="5131000" />
+      <workItem from="1768567666933" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="Create Portfolio Website">
       <option name="closed" value="true" />
@@ -77,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768568594596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Image and edited css">
+      <option name="closed" value="true" />
+      <created>1768573010556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768573010556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Portfolio Website" />
     <MESSAGE value="Added Resume info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Resume info" />
+    <MESSAGE value="Added Image and edited css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Image and edited css" />
   </component>
 </project>
