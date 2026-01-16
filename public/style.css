@@ -1,10 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --navy-blue: #0a192f;
     --light-navy: #112240;
     --white: #e6f1ff;
     --secondary-white: #ccd6f6;
     --gray: #8892b0;
-    --accent: #64ffda; /* Adding a subtle accent for links/highlights */
+    --accent: #72b5e8; /* Adding a subtle accent for links/highlights */
 }
 
 * {
@@ -27,11 +31,69 @@ body {
     padding: 0 20px;
 }
 
-header {
-    background-color: var(--light-navy);
-    padding: 80px 0 60px 0;
-    text-align: center;
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(10, 25, 47, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 20px 0;
     border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin: 5px 10px;
+}
+
+.nav-links a {
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 4px 8px;
+    background-color: var(--white);
+    border: 1px solid #000000;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(114, 181, 232, 0.1);
+}
+
+.nav-links a.active {
+    color: var(--accent);
+    border-color: var(--accent);
+    font-weight: 600;
+    background: rgba(114, 181, 232, 0.1);
+}
+
+header {
+    background: url('images/Headshot.JPG');
+    background-size: cover;
+    background-position: 90% 40%; /* Shifts focus further towards top right */
+    min-height: calc(100vh - 80px); /* Fill the screen minus approximate navbar height */
+    padding: 60px 0;
+    text-align: right;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start; /* Keeps text towards the top */
+}
+
+header .container {
+    width: 100%;
+    max-width: 1200px;
 }
 
 header h1 {
@@ -40,13 +102,15 @@ header h1 {
     font-weight: 700;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added for better readability on lighter image */
 }
 
 .subtitle {
-    color: var(--accent);
+    color: var(--white);
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Added for better readability */
 }
 
 .contact-info {
@@ -89,7 +153,7 @@ header h1 {
 }
 
 main {
-    padding: 60px 0;
+    padding: 220px 0 60px 0;
 }
 
 section {
@@ -130,13 +194,36 @@ h2::after {
     color: var(--gray);
 }
 
-.project-card, .education-item, .experience-item {
+.project-card,.skills-grid, .summary-details, .education-item, .experience-item, .contact-details {
     background-color: var(--light-navy);
     padding: 30px;
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
     transition: transform 0.3s ease;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.accent-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.accent-link:hover {
+    text-decoration: underline;
 }
 
 .project-card:hover {
@@ -165,6 +252,12 @@ h2::after {
 .project-link:hover {
     text-decoration: underline;
 }
+main h2 {
+    margin-top: 30px;
+}
+.nav-links li::before {
+    content: none;
+}
 
 ul {
     list-style-type: none;
@@ -192,7 +285,27 @@ footer {
     font-size: 0.85rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    .navbar {
+        padding: 15px 0;
+    }
+    
+    .nav-links li {
+        margin: 5px 8px;
+    }
+    
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    header {
+        text-align: center;
+        align-items: center;
+        min-height: calc(100vh - 70px); /* Adjust for mobile navbar height */
+        padding: 40px 0;
+        background-position: center;
+    }
+
     header h1 {
         font-size: 2.2rem;
     }
