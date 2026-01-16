@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4f1da09-59c8-40fd-8db9-b7332f5c22b9" name="Changes" comment="Added Image and edited css">
+    <list default="true" id="d4f1da09-59c8-40fd-8db9-b7332f5c22b9" name="Changes" comment="Updated Experience">
+      <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768567665483</updated>
-      <workItem from="1768567666933" duration="6225000" />
+      <workItem from="1768567666933" duration="6823000" />
     </task>
     <task id="LOCAL-00001" summary="Create Portfolio Website">
       <option name="closed" value="true" />
@@ -86,7 +89,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768573010556</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added work experience">
+      <option name="closed" value="true" />
+      <created>1768574100424</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768574100424</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated Exp Year Graduate">
+      <option name="closed" value="true" />
+      <created>1768574222604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768574222604</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated Experience">
+      <option name="closed" value="true" />
+      <created>1768574397287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768574397287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +123,9 @@
     <MESSAGE value="Create Portfolio Website" />
     <MESSAGE value="Added Resume info" />
     <MESSAGE value="Added Image and edited css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Image and edited css" />
+    <MESSAGE value="Added work experience" />
+    <MESSAGE value="Updated Exp Year Graduate" />
+    <MESSAGE value="Updated Experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Experience" />
   </component>
 </project>
